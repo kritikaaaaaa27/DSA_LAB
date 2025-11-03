@@ -6,7 +6,6 @@ struct Node {
     Node *left, *right;
     Node(int val) { data = val; left = right = NULL; }
 };
-
 class BST {
 public:
     Node* root;
