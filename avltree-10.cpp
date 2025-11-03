@@ -43,6 +43,7 @@ Node* rotateRight(Node* y) {
 
     return x;
 }
+
 Node* rotateLeft(Node* x) {
     Node* y = x->right;
     Node* t2 = y->left;
