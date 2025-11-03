@@ -1,18 +1,15 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
-
 class Connection {
 public:
     int from;
     int to;
     int cost;
 };
-
 class HouseGroup {
 public:
     int parent[100];
-
     void createHouses(int n) {
         for (int i = 1; i <= n; i++)
             parent[i] = i;
